@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(172, 87%, 32%);
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    background: hsl(173, 61%, 34%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3b0650;
+}
+
+.student-card {
+    border: 1px solid #247170;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: hwb(61 13% 40%);
+    border-radius: 5px;
+}
+
+.student-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-card li {
+    margin-bottom: 5px;
+}
+
+.student-card hr {
+    margin: 10px 0;
+}

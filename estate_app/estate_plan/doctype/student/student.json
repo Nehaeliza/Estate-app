@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:reg_no",
+ "creation": "2024-06-07 10:27:54.254026",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ybu7",
+  "column_break_tc9g",
+  "status",
+  "reg_no",
+  "name1",
+  "gender",
+  "email",
+  "phone",
+  "department",
+  "course",
+  "dob",
+  "marks",
+  "fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ybu7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reg No.",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nFemale\nMale\nOthers"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": "Course"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "marks",
+   "fieldtype": "Table",
+   "label": "Marks",
+   "options": "Marks"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nCompleted",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_tc9g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Currency",
+   "label": "Fee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-20 13:54:56.795358",
+ "modified_by": "Administrator",
+ "module": "Estate plan",
+ "name": "Student",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_seen": 1
+}

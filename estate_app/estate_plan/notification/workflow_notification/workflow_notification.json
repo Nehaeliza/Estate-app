@@ -1,0 +1,40 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-06-24 10:20:40.380862",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "New",
+ "enabled": 0,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Add your message here</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-06-24 15:14:37.016920",
+ "modified_by": "Administrator",
+ "module": "Estate plan",
+ "name": "workflow notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.workflow_state == 'Draft'",
+   "receiver_by_role": "Sales User"
+  },
+  {
+   "condition": "doc.workflow_state == 'Pending Approval'",
+   "receiver_by_role": "HR Manager"
+  },
+  {
+   "condition": "doc.workflow_state == 'Pending CEO Approval'",
+   "receiver_by_role": "Sales Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Annakhaprojects",
+ "sender_email": "annakhaprojects@gmail.com",
+ "subject": "New workflow: {{doc.name}} {{doc.workflow}}",
+ "value_changed": "workflow_state"
+}
